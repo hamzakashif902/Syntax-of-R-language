@@ -17,6 +17,12 @@ if(a<2){
 arr<-c(1,2,3,4,5)
 print(arr)
 
+#array from 1 to 4
+arr<-1:4
+
+#array from 4 to 1
+arr<-4:1
+
 #loop and continue
 s<-"value in v"
 v<-4:1              #v=4,3,2,1  array
@@ -53,9 +59,10 @@ b<-2
 c<-3
 addThreeVlaues <- function(a, b, c){
   d<-a+b+c
-  print(d)
+  return(d)
 }
-addThreeVlaues(a,b,c)
+d<-addThreeVlaues(a,b,c)
+print(d)
 
 #taking input from user as string into a
 a<-readline()
