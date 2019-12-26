@@ -78,3 +78,10 @@ print(list1[[1]][2])        #printing the 2nd element of array
 #creat matrix
 ma <- matrix(c(2,3,4,5,6,7), nrow = 2,ncol = 3, byrow = TRUE)
 print(ma)
+
+#factors  create levels base of distinct values
+
+arr<-c('red', 'green', 'blue', '1', '1', 'red')
+fac<-factor(arr)
+print(fac)
+print(nlevels(fac))   #LEVELS
