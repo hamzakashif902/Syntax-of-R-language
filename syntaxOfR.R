@@ -85,3 +85,12 @@ arr<-c('red', 'green', 'blue', '1', '1', 'red')
 fac<-factor(arr)
 print(fac)
 print(nlevels(fac))   #LEVELS
+
+#data frame
+
+fra <- data.frame(
+  name = c('zahid ali', 'abdul samad', 'waleed', 'Riana'),
+  age = c(20, 19, 19, 25),
+  gender = c('male', 'male', 'male', 'female')
+)
+print(fra)
