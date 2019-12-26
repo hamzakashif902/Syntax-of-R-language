@@ -1,10 +1,13 @@
-#assigning value
-a<-1
-print(a)
-b<-a+2
+#assigning value and printing value
+a = 1      #using =
+print(a)          #printing a
+b <- a+2   #using <-
 print(b)
-a<-4
+4 -> a     #using ->
 print(a)
+
+#printing multiple data types
+cat("value of a: ", a, "value of b: ", b)
 
 #if else condition
 if(a<2){
