@@ -9,6 +9,42 @@ print(a)
 #printing multiple data types
 cat("value of a: ", a, "value of b: ", b)
 
+#chech data type of variable a
+
+print(class(a))
+
+#list all available variable at workspace
+
+print(ls())
+
+#usually variable name start with dot are not displayed with ls() 
+#so use this command to show them too
+print(ls(all.names = TRUE))
+
+#print variable at workspace starting with 'za'
+print(ls(pattern = 'za'))
+
+#delete variable from workspace, a is variable
+rm(a)
+
+#to all variable on workspace
+rm(list = ls())
+
+#adding to vectors mean array
+
+v <- c(2, 3, 4, 5)
+d <- c(2, 4, 8, 1)
+sum2 <- (v+d)
+print(sum2)
+
+#adding all elements of two arrays
+sum4 <- sum(v,d)
+print(sum4)
+
+#adding all elements of one array
+sum5 <- sum(v)
+print(sum5)
+
 #if else condition
 if(a<2){
   print("a is less than 2")
