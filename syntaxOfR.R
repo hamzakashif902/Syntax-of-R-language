@@ -69,10 +69,12 @@ a<-readline()
 
 #convert string or character into integer and store into b
 b<- as.integer(a)
- 
+
 #creat list of diff data types and store in list1
 list1 <- list(c(11,12,13,14), "zahid", sin, 2)
 print(list1[[1]])           #printin first index data that is array
 print(list1[[1]][2])        #printing the 2nd element of array
 
-#
+#creat matrix
+ma <- matrix(c(2,3,4,5,6,7), nrow = 2,ncol = 3, byrow = TRUE)
+print(ma)
