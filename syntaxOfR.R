@@ -32,8 +32,8 @@ rm(list = ls())
 
 #adding to vectors mean array
 
-v <- c(2, 3, 4, 5)
-d <- c(2, 4, 8, 1)
+v <- c(2, 0, 4, 1)
+d <- c(2, 14, 0, 11)
 sum2 <- (v+d)
 print(sum2)
 
@@ -44,6 +44,44 @@ print(sum4)
 #adding all elements of one array
 sum5 <- sum(v)
 print(sum5)
+
+#subtract arrays
+print(d-v)
+
+#multiply arrays element
+print(d*v)
+
+#devide elements of arrays
+print(d/v)
+
+#modules of two array's element
+print(d%%v)   #reminder will be answer
+
+#
+print(d%/%v)  #quotient will be answer
+
+#Relational Operators
+print(d > v)
+print(d < v)
+print(d == v)
+print(d >= v)
+print(d <= v)
+print(d != v)
+
+#logival operator
+print(d & v)
+print(d | v)
+print(!v)
+
+#Left Assignment
+a <- 3
+a = 3
+a <<- 3
+
+#Right Assignment
+3 -> a
+3 ->> a
+
 
 #if else condition
 if(a<2){
