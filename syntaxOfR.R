@@ -188,3 +188,12 @@ fra <- data.frame(
   gender = c('male', 'male', 'male', 'female')
 )
 print(fra)
+
+#switch
+x <- switch(
+  2,             #expression
+  'zahid',     #case1
+  'Ali',       #case2
+  'sikander'   #case3
+)
+print(x)
