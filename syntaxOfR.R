@@ -68,7 +68,7 @@ print(d >= v)
 print(d <= v)
 print(d != v)
 
-#logival operator
+#logical operator
 print(d & v)
 print(d | v)
 print(!v)
