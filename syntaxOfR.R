@@ -82,6 +82,23 @@ a <<- 3
 3 -> a
 3 ->> a
 
+#Scan value
+d <- 1:8
+a <- 4
+b <- a %in% d
+print(b)
+
+#Multiply matrix with its transpose
+ma = matrix( c(1,2,3,4,5,6), nrow = 2,ncol = 3,byrow = TRUE)  #making matrix
+tra = ma %*% t(ma)
+print(tra)
+
+#to check a is integer
+a <- 10L  #L for integer data, integer is also numaric but numaric is not integer
+is.integer(a)  #true if a is integer
+is.numeric(a)   #true if a is numaric
+is.character(a)  #true if a is characer
+
 
 #if else condition
 if(a<2){
